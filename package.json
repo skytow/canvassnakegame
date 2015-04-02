@@ -1,15 +1,49 @@
 {
   "name": "canvassnakegame",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "An interactive clone of the Snake Game in canvas.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt",
+    "browser": "browserify lib/canvassnakegame.js > browser.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/skytow"
   },
+  "keywords": [
+    "games",
+    "html",
+    "canvas",
+    "animation",
+    "game library",
+    "keyboard",
+    "interaction",
+    "events"
+  ],
   "author": "Chris Nichols",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "should": "^0.0.1",
+    "sinon": "^1.10.3",
+    "grunt-browserify": "^3.0.0",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-sass": "^0.14.0",
+    "jsdom": "^1.0.0-pre.5",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "jshint-stylish": "^0.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "time-grunt": "^0.3.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0"
+
+
+  },
+  "dependencies": {
+    "express": "4.x",
+    "underscore": "^1.7.0"
+  }
 }

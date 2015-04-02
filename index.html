@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Snake!</title>
+    <title>The Canvas Snake</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<canvas id="canvas" width="400" height="400"></canvas>
+<h1>Snake!</h1>
 
+<div id="container">
+    <div id="boardSize">
+        <h2>Board size:</h2>
+        <input id="small" type="radio" align="right" name="boardSize" value="small">Small
+        <input id="medium" type="radio" align="right" name="boardSize" value="medium" checked>Medium
+        <input id="large" type="radio" align="right" name="boardSize" value="large">Large
+        <br>
+    </div>
+    <div class="canvas">
+        <canvas width="500" height="500" id="canvas"/>
+    </div>
+    <div id="difficultyLevel">
+        <h2>Difficulty Level:</h2>
+        <input id="beginner" type="radio" align="right" name="difficulty" value="beginner">Beginner
+        <input id="novice" type="radio" align="right" name="difficulty" value="novice" checked>Novice
+        <input id="advanced" type="radio" align="right" name="difficulty" value="advanced">Advanced Player
+    </div>
 
-
+</div>
 </body>
+<script type="text/javascript" src="lib/dist/bundle.js"></script>
 </html>

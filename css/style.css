@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Halo3';
+  src: url('../fonts/halo3/Halo3.ttf'); }
+
+body {
+  background-color: #CCC; }
+
+h1 {
+  text-align: center; }
+
+p {
+  text-align: center; }
+
+#boardSize {
+  height: 100px;
+  padding: 5px;
+  text-align: center; }
+
+#difficultyLevel {
+  text-align: center; }
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: black; }
