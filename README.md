@@ -39,6 +39,7 @@ Coulds:
 Live version
 
 Currently deployed on Heroku.
+Heroku: https://canvassnakegame.herokuapp.com/
 
 To run locally:
 
